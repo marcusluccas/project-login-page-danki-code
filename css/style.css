@@ -14,6 +14,10 @@ html, body{
     src: url(../fonts/OpenSans-Light.ttf);
 }
 
+.clear{
+    clear: both;
+}
+
 .center{
     width: 1200px;
     margin: 0 auto;
@@ -160,6 +164,7 @@ html, body{
 }
 
 .section-1{
+    min-width: 1200px;
     padding: 90px 0;
 }
 
@@ -179,7 +184,7 @@ html, body{
 
 .container-single{
     float: left;
-    width: 33.333%;
+    width: 33.3333%;
     padding: 30px;
 }
 
@@ -191,4 +196,16 @@ html, body{
 
 .container-single img{
     width: 70px;
+}
+
+.footer{
+    /*clear: both;*/
+    border: 2px solid #888888;
+    padding: 20px 0;
+    text-align: center;
+    color: #888;
+}
+
+.footer p{
+    margin-top: 8px;
 }
