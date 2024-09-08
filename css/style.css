@@ -19,14 +19,14 @@ html, body{
 }
 
 .center{
-    width: 1200px;
+    max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 2%;
 }
 
 .header{
-    min-width: 1200px;
     width: 100%;
+    padding: 0 2%;
     height: 60px;
     background-color: #212343;
 }
@@ -37,7 +37,7 @@ html, body{
 
 .container-banner{
     width: 100%;
-    min-width: 1200px;
+    padding: 0 2%;
     height: 557px;
     background-image: url('../images/header_bg.png');
     background-size: cover;
@@ -46,7 +46,6 @@ html, body{
 
 .container-banner > .center{
     height: 100%;
-    /*text-align: right;*/
 }
 
 .form{
@@ -56,7 +55,9 @@ html, body{
     float: right;
     position: relative;
     top: -15px;
-    border: 8px solid rgba(120, 120, 120, 0.5);
+    border-width: 12px;
+    border-color: rgba(120, 120, 120, 0.5);
+    border-style: solid;
     background-color: white;
     background-clip: padding-box;
     /*background-origin tem o mesmo conceito porém serve para imagens.*/
@@ -136,18 +137,20 @@ html, body{
 }
 
 .container-2{
-    min-width: 1200px;
-    padding: 40px 0;
+    padding: 40px 2%;
     background-color: #DDD;
     text-align: center;
 }
+
+
 
 .container-2 h2{
     font-weight: normal;
 }
 
 .container-2 p{
-    width: 698px;
+    width: 100%;
+    margin: 15px 0;
     display: inline-block;
     text-align: justify;
 }
@@ -164,8 +167,7 @@ html, body{
 }
 
 .section-1{
-    min-width: 1200px;
-    padding: 90px 0;
+    padding: 90px 2%;
 }
 
 .section-1 h2{
